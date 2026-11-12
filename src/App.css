@@ -330,3 +330,94 @@ main {
     font-size: 26px;
   }
 }
+/* Module 4: Footer Styling */
+.footer {
+  width: 100%;
+  background-color: #fafafa;
+  border-top: 1px solid #eeeeee;
+  padding: 60px 8% 25px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-top {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.footer-top h3 {
+  font-size: 28px;
+  color: #387ed1;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.footer-top p {
+  font-size: 15px;
+  color: #666666;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 35px;
+}
+
+.footer-links a {
+  font-size: 15px;
+  color: #424242;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #387ed1;
+}
+
+.footer-bottom {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+/* Module 4: Responsive Footer */
+@media (max-width: 768px) {
+  .footer {
+    padding: 45px 5% 20px;
+  }
+
+  .footer-links {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-top h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links {
+    gap: 15px;
+  }
+
+  .footer-links a {
+    font-size: 13px;
+  }
+
+  .footer-top p {
+    font-size: 14px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+}

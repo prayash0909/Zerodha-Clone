@@ -8,6 +8,10 @@ This project recreates the structure and visual style of a modern online investm
 
 🚀 **[View the live website](https://zerodha-clone-two-brown.vercel.app/)**
 
+## Homepage Preview
+
+![Zerodha Clone Homepage](screenshots/zerodha-homepage.png)
+
 ## Features
 
 - Responsive navigation bar with sticky positioning

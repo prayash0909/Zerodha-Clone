@@ -1,0 +1,53 @@
+/* Main App Layout */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+}
+
+/* Navbar Placeholder */
+.navbar {
+  min-height: 80px;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #387ed1;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+/* Hero Placeholder */
+.hero {
+  min-height: 400px;
+  padding: 60px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Sections Placeholder */
+.features {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+/* Footer Placeholder */
+.footer {
+  padding: 50px 8%;
+  background: #fafafa;
+  text-align: center;
+}

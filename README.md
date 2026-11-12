@@ -1,19 +1,96 @@
+# Zerodha Clone
+
+A responsive stockbroker landing page built with **React**, **Vite**, and **CSS** as a SapphireIQ student project.
+
+This project recreates the structure and visual style of a modern online investment platform for frontend practice. It is a learning project and is **not affiliated with Zerodha**.
+
 ## Live Demo
 
-🚀 [View Zerodha Clone](https://zerodha-clone-two-brown.vercel.app/)
-# React + Vite
+🚀 **[View the live website](https://zerodha-clone-two-brown.vercel.app/)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Responsive navigation bar with sticky positioning
+- Hero section introducing the investment platform
+- Investment feature cards for equity delivery, intraday and F&O, mutual funds, and trading tools
+- Statistics section
+- Footer with in-page navigation links
+- Responsive layout for desktop and mobile screens
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **React** – component-based UI
+- **Vite** – development server and production build
+- **CSS** – styling and responsive layouts
+- **JavaScript** – application logic
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
 
-## Expanding the ESLint configuration
+```text
+Zerodha-Clone/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Sections.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   └── App.css
+├── index.html
+├── package.json
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/prayash0909/Zerodha-Clone.git
+```
+
+### 2. Open the project directory
+
+```bash
+cd Zerodha-Clone
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to view the app.
+
+## Production Build
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+The generated files are placed in the `dist/` directory.
+
+## Learning Outcomes
+
+- Building reusable React components
+- Creating responsive layouts with CSS
+- Organizing a frontend project
+- Running a production build
+- Deploying a React application with Vercel
+
+## Disclaimer
+
+This website is created only for educational and portfolio purposes. It does not provide investment, trading, or financial services. Zerodha is a trademark of its respective owner.
+
+---
+
+**Built as a SapphireIQ student project.**

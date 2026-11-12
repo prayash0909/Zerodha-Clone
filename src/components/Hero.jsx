@@ -5,11 +5,13 @@ function Hero() {
         <h1>Invest in everything</h1>
 
         <p>
-          Online platform to invest in stocks, derivatives, mutual funds, and
-          more.
+          Online platform to invest in stocks, derivatives, mutual funds, ETFs,
+          bonds, and more.
         </p>
 
-        <button className="hero-button">Sign up now</button>
+        <a href="#signup" className="hero-button">
+          Sign up now
+        </a>
       </div>
 
       <div className="hero-image">
